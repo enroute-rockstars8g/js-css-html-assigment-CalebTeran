@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pagina de los rockstars</title>
+    <meta
+      name="description"
+      content="Este sitio es el primer demo de los Rockstars 8G"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <script src="index.js"></script>
+    <div class="text-white">
+      <h1>This is me</h1>
+    </div>
+    <div class="img-profile">
+      <img id="img-profile-details" src="assets/perfil.jpg" alt="Perfil">
+    </div>
+    <div class="text-white">
+      Jehu Caleb Terán Díaz
+    </div>
+    <!-- Cuantos años tengo, breve resumen (con personalidad), Motivaciones personales -->
+    <div class="text-white">
+      <h2>About me</h2>
+      <p>I am Caleb, I live in Hermosillo Sonora,
+        and I have 26 years old, I am very
+        interested in the new technologies and
+        how to resolve problems with them.
+      </p>
+      <h2>Experience</h2>
+      <p>
+        <span id="title-cv">(Front End Developer) DRIMMAKE- “SUGAR” 2021 SEP .- JAN 2022 </span><br>
+        Angular 10.<br>
+        Firebase as DB.<br>
+        GitHub as Repository.<br>
+        Google storage for save files.<br>
+        No-SQL structure in firebase.<br>
+        Documentation UML, SRS, Mockups.
+        <span id="title-cv">(Back End Developer) EPIX- “ENEMY METAL” 2021 AUG . - 2021 NOV .</span><br>
+        Back End developer with Javascript.<br>
+        MySql as DB.<br>
+        GitHub as Repository.<br>
+        Molecular as microservices framework. <br>
+        Elasticsearch/Kibana/Filebeat, for search and monitoring
+        data. <br>
+        Using docker composer for running the project in a controlled environment.<br>
+      </p>
+      <p>
+        <span id="title-cv">(Full Stack JR DEV) BI INFORM- “SECSO CONTABLIDAD “ AND “PINZON SAC”
+        2020 DEC. - 2021 SEP .</span><br>
+        Back End developer with C#. <br>
+        SQL Server as DB.<br>
+        Azure DevOps as Repository with CI/CD. <br>
+        FrontEnd Dev. With Angular for administrator modules. <br>
+        ASP.net core MVC with Razor/JS/HTML/CSS for public section.<br>
+        Desktop development using electron and Angular with capacitor.<br>
+        C# .net core Rest APIs for microservices using MVC architecture.
+      </p>
+    </div>
+    <!-- Recurso del DOM  -->
+    <!-- Fibonacci (1,0) (2,1) (3,1) (4,2) (5,3) (6,5)-->
+    <div>
+      <label for="fibo-number">Put your number</label>
+      <input type="text" id="fibo-number" placeholder="Enter your number...">
+      <button type="submit" class="btn-fibo" onclick="fibo()">Get Fibonacci</button>
+    </div>
+    <!-- Factorial (0!,1) (1!,1) (2!,1*2=2) (3!,1*2*3=6) (4!,1*2*3*4=24) (5!,1*2*3*4*5=120)-->
+    <div class="search-result">
+      <h1> Your Number is!!</h1>
+      <div class="result-container">
+        <span id="fibo-result"> 0 </span>
+      </div>
+    </div>
+    <div>
+      <label for="exp-number">Put your number</label>
+      <input type="text" id="exp-number" placeholder="Enter your number...">
+      <button type="submit" class="btn-fibo" onclick="exponencial()">Get exponencial number</button>
+    </div>
+    <!-- Factorial (0!,1) (1!,1) (2!,1*2=2) (3!,1*2*3=6) (4!,1*2*3*4=24) (5!,1*2*3*4*5=120)-->
+    <div class="search-result">
+      <h1> Your Number is!!</h1>
+      <div class="result-container">
+        <span id="exp-result"> 0 </span>
+      </div>
+    </div>
+  </body>
+</html>
